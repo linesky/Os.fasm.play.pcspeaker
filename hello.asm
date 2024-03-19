@@ -4,7 +4,7 @@ mov cx,4000
 mov bx,0
 mov ax,0xb800
 mov ds,ax
-mov al,0x17h
+mov al,17h
 fill:
         ds
         mov [bx],al
